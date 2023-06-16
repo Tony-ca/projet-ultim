@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 400px;
+}
+
+.container{
+    --bs-gutter-x: 0;
+    max-width: 100%;
+}
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+
+.navhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1720b;
+    height: 60px;
+    width: 100%;
+}
+.nav-link{
+    color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100%;
+}
+
+
+.imgheader{
+    background-image: url(img/header.jpg);
+    background-size:cover;
+    height: 350px;
+}
+
+.card{
+    border: 0;
+    margin: auto;
+}
+
+.card-link{
+    /* display: flex; */
+    text-decoration: none;
+    color: white;
+    background-color: #f1720b;
+}
+.card1 {
+    color: white;
+    border-top: 4px solid #f1720b;
+    background-image: url(img/barefoot.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.card2 {
+    color: white;
+    border-top: 4px solid #f1720b;
+    background-image: url(img/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.card3{
+    text-align: center;
+    height: 360px;
+    width: 100%;
+    width: 600px;
+
+}
+
+.sizecol{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.imgbg2{
+    background-image: url(img/equipement.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.card4{
+    color: white;
+    margin-left: 20%;
+    padding-top: 10%;
+}
+
+.card-body4 .p1{
+    font-size: 30px;
+}
+
+.card-body4 .p2{
+    font-size: 60px;
+}
+
+.card4btn{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: maroon;
+    border: 0;
+}
+
+
+
+
+
